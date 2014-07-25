@@ -1,0 +1,24 @@
+{
+  "name": "coffee-mocha-npm-template",
+  "version": "1.0.0",
+  "description": "A template project for npm modules coded with coffeescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "prepublish": "coffee --bare --compile *.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mpj/coffee-mocha-npm-template.git"
+  },
+  "devDependencies": {
+    "mocha": "^1",
+    "coffee-script": "^1",
+    "sinon": "^1"
+  },
+  "author": "Mattias Petter Johansson <mpj@mpj.me>",
+  "license": "MIT",
+  "dependencies": {
+    "mout": "~0.9.1"
+  }
+}

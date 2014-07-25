@@ -1,4 +1,4 @@
-spotify-virtual-songs-list
+coffee-mocha-npm-template
 ==========================
 
-A wrapper around spotify-live and spotify-events that adds support for incrementally loading lists.
+A template project for npm modules coded with coffeescript.
