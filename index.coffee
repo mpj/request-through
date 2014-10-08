@@ -1,4 +1,3 @@
-thing = () ->
-  # code here
-
-module.exports = thing
+constructor = require './constructor'
+request = require 'request'
+module.exports = constructor.bind(null, request)

@@ -1,7 +1,7 @@
 {
-  "name": "coffee-mocha-npm-template",
+  "name": "request-through",
   "version": "1.0.0",
-  "description": "A template project for npm modules coded with coffeescript",
+  "description": "Wraps the 'request' npm module as a through stream.",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
@@ -19,6 +19,8 @@
   "author": "Mattias Petter Johansson <mpj@mpj.me>",
   "license": "MIT",
   "dependencies": {
-    "mout": "~0.9.1"
+    "request": "~2.45.0",
+    "highland": "~2.0.0",
+    "duplexify": "~3.2.0"
   }
 }
