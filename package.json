@@ -1,6 +1,6 @@
 {
   "name": "request-through",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Wraps the 'request' npm module as a through stream.",
   "main": "index.js",
   "scripts": {
